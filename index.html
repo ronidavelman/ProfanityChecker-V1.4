@@ -1,17 +1,12 @@
 <html>
-
     <head>
         <title>Profanity Checker Demo</title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <script src="db.js"></script>
         <script src="check.js"></script>
-
-
     </head>
-
-
+    
     <body>
-
         <center>
             <h1>Enter a word or phrase.</h1>
             <form>
@@ -19,7 +14,7 @@
                 <input type="text" id="phrase" placeholder="Enter a word" />
                 <button onClick="check();">Find</button>
             </form>
-
+            
             <div>
                 <h2> How to use:</h2>
                 <p>
@@ -38,10 +33,6 @@
                 var match = ProfanityChecker(document.getElementById('phrase').value);
                 alert(match);
             }
-
         </script>
-
-
     </body>
-
 </html>
