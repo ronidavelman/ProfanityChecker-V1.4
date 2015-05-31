@@ -1,0 +1,47 @@
+<html>
+
+    <head>
+        <title>Profanity Checker Demo</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="db.js"></script>
+        <script src="check.js"></script>
+
+
+    </head>
+
+
+    <body>
+
+        <center>
+            <h1>Enter a word or phrase.</h1>
+            <form>
+                <label for="search">Search</label>
+                <input type="text" id="phrase" placeholder="Enter a word" />
+                <button onClick="check();">Find</button>
+            </form>
+
+            <div>
+                <h2> How to use:</h2>
+                <p>
+                    1) Include the db.js and check.js scripts in the head section.
+                    <br />
+                    <br /> 2) Pass in the word or phrase to the ProfanityChecker() function. It will return true or false.
+                    <br />
+                    <br /> Eg, here we do the following: var match = ProfanityChecker(document.getElementById('phrase').value);
+                    <br /> alert(match);
+                </p>
+            </div>
+
+        </center>
+        <script>
+            function check() {
+                var match = ProfanityChecker(document.getElementById('phrase').value);
+                alert(match);
+            }
+
+        </script>
+
+
+    </body>
+
+</html>
