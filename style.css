@@ -1,0 +1,59 @@
+form {
+    display: inline-block;
+    margin: 0;
+    padding: 9px;
+    border: 1px solid #BAA994;
+    border-radius: 5px;
+    background-color: #EDE5DB;
+    background-image: -ms-linear-gradient(top, #EDE5DB 0%, #DCD0C2 80%);
+    background-image: -moz-linear-gradient(top, #EDE5DB 0%, #DCD0C2 80%);
+    background-image: -webkit-linear-gradient(top, #EDE5DB 0%, #DCD0C2 80%);
+    background-image: linear-gradient(top, #EDE5DB 0%, #DCD0C2 8a0%);
+    box-shadow: inset 0 1px #F6F2EC, 0 3px 2px #E5E5E5;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:15%;
+}
+form:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+label {
+    position: absolute;
+    left: -9999px;
+}
+input, button {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+input {
+    border: 1px solid #BAA994;
+    width: 300px;
+    height: 38px;
+    box-shadow: inset -2px 1px 1px #D5D5D5, 1px 1px #EDE7DF;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 36px;
+    font-size: 16px;
+    background: #fff url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAaBAMAAABWeiG6AAAAA3NCSVQICAjb4U/gAAAAD1BMVEXe3t7////m5ub39/fv7+9d3/qMAAAACXBIWXMAAAsSAAALEgHS3X78AAAAFnRFWHRDcmVhdGlvbiBUaW1lADAxLzExLzEyymPybAAAABh0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzT7MfTgAAAJJJREFUGJVVkOsRwyAMgxXCAKFmAHpZoLlkgKTdf6cK23lYP4DvBLINShD68kX63biDep/4gmpxbMjr1jAaViTuFTCccPTDRzcwSEMqBsWWvYahZTBxNBwiRvd6a7inkOx1J69b0W/L2RV7notwKnN5zZR93uZ8GAp5FrWtf1n6SLRx/ZraN9JOTxR+3wPLVgJSfwffF4JRS32lAAAAAElFTkSuQmCC) no-repeat 5px;
+}
+button {
+    margin-left: -1px;
+    border: 1px solid #7DA07E;
+    border-radius: 0 5px 5px 0;
+    padding-right: 13px;
+    padding-left: 13px;
+    height: 40px;
+    background-color: #BDD3BE;
+    background-image: -ms-linear-gradient(top, #BDD3BE 0%, #93B894 80%);
+    background-image: -moz-linear-gradient(top, #BDD3BE 0%, #93B894 80%);
+    background-image: -webkit-linear-gradient(top, #BDD3BE 0%, #93B894 80%);
+    background-image: linear-gradient(top, #BDD3BE 0%, #93B894 80%);
+    box-shadow: inset 0 1px 1px #DCE7DC, 0 1px #EDE7DF;
+    color: #557B56;
+    font-weight: bold;
+    font-size: 16px;
+    text-shadow: 0 1px #DCE7DC;
+}
