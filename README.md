@@ -11,3 +11,5 @@ Eg, here we do the following: var match = ProfanityChecker(document.getElementBy
 alert(match);
 
 
+Demo: http://ronidavelman.github.io/Profanity-Checker/
+
