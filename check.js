@@ -6,7 +6,7 @@ function ProfanityChecker(phrase) {
 
         for (var b = 0; b < list.length; b++) {
 
-            if (parts[a] == list[b]) {
+            if (parts[a].indexOf(list[b]) > -1) {
                 //found
                 return true;
             }
