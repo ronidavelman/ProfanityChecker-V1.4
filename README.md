@@ -13,3 +13,5 @@ alert(match);
 
 Demo: http://ronidavelman.github.io/Profanity-Checker/
 
+Have an idea for improving this? Let me know!
+
